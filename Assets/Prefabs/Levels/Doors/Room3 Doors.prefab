@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3090409507793897527
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3629386271942128982}
+  - component: {fileID: 231569780691735748}
+  - component: {fileID: 1748930573490352858}
+  m_Layer: 0
+  m_Name: Room3 Doors
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3629386271942128982
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3090409507793897527}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.74, y: 7.91, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &231569780691735748
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3090409507793897527}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.02177}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 0.085657954}
+  m_EdgeRadius: 0
+--- !u!114 &1748930573490352858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3090409507793897527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc4721addaa23ce4ea33b24965dc29dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentTilemap: {fileID: 0}
+  tL1: {fileID: 11400000, guid: 400f0000885b56c458ad3c9bd95aad99, type: 2}
+  bL1: {fileID: 11400000, guid: 4109b5fc45e144e4eb084686e13eb0f4, type: 2}
+  tM1: {fileID: 11400000, guid: a7b6583a29bb19543b58426bcac1eb50, type: 2}
+  bM1: {fileID: 11400000, guid: c91d2b025be900845a5eb0e27f0ff49e, type: 2}
+  tR1: {fileID: 11400000, guid: 400f0000885b56c458ad3c9bd95aad99, type: 2}
+  bR1: {fileID: 11400000, guid: 4109b5fc45e144e4eb084686e13eb0f4, type: 2}
+  tLO1: {fileID: 11400000, guid: 37915d03311a1e9438a4c86b86e07fec, type: 2}
+  bLO1: {fileID: 11400000, guid: 2bb52cf713c72ca4dbe0743bf27491c3, type: 2}
+  tRO1: {fileID: 11400000, guid: ee7e4cef5ad4b664a90ba30325ce529b, type: 2}
+  bRO1: {fileID: 11400000, guid: 665c7086a57c04c42932f10b699d3261, type: 2}
+  left1: {x: -23, y: 63}
+  right1: {x: -19, y: 63}
+  tL2: {fileID: 11400000, guid: e0fc4e513d7237c408ff37ed2e6e0520, type: 2}
+  bL2: {fileID: 11400000, guid: c91d2b025be900845a5eb0e27f0ff49e, type: 2}
+  tM2: {fileID: 11400000, guid: ca6a5efc5c3340240952f1a1853ad588, type: 2}
+  bM2: {fileID: 11400000, guid: c91d2b025be900845a5eb0e27f0ff49e, type: 2}
+  tR2: {fileID: 11400000, guid: e0fc4e513d7237c408ff37ed2e6e0520, type: 2}
+  bR2: {fileID: 11400000, guid: c91d2b025be900845a5eb0e27f0ff49e, type: 2}
+  tLO2: {fileID: 11400000, guid: 230572625f0aaf24498fc0bfa689f9a7, type: 2}
+  bLO2: {fileID: 11400000, guid: a0077fc51d87f5f43a1f4d104241c62e, type: 2}
+  tRO2: {fileID: 11400000, guid: 5fa7904e765ae8642b84ef5f93a15a89, type: 2}
+  bRO2: {fileID: 11400000, guid: 804741ffd38300d4dab60a6cd0013cda, type: 2}
+  left2: {x: -23, y: 69}
+  right2: {x: -19, y: 69}
+  player: {fileID: 0}
